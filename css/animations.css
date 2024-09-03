@@ -3,7 +3,7 @@ MENU MEDIA SECTION
 ===========================================*/
 
 .menu {
-    color: #f00;
+    color: rgb(200, 200, 200);
     font: bold 12px/18px sans-serif;
     text-align: center;
     display: inline;
@@ -32,7 +32,7 @@ MENU MEDIA SECTION
 }
 
 .menu li:hover {
-    color: #f00;
+    color: rgb(190, 190, 190);
     background-color: rgba(100,65,0,0.3);
 }
 

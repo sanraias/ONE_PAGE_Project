@@ -37,8 +37,7 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-    color: #E91C1C;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    color: #1b0303;
 
 }
 
@@ -47,15 +46,14 @@ h1::after { /* This is the underline */
     content: "";
     height: 2px;
     width: 150px;
-    background: #E91C1C;
+    background:#1b0303;
     margin: 5px auto 40px;
-    box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 
 }
 
 h2 {
     line-height: 50px;
-    color: #E91C1C;
+    color: #1b0303;
 }
 
 h3 {
@@ -154,7 +152,7 @@ HOME SECTION STYLES
 ==================================================*/
 
 #home  {
-    background: url(../img/patitas.png) no-repeat 50% 50%;
+    background: url(../img/cucan.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,23 +162,21 @@ HOME SECTION STYLES
     height: 100%;
     display: block;
     height: auto;
-    padding-top: 350px; /*This is spacer before the Main title logo*/
-    padding-bottom: 500px; /*This is spacer after the Main title logo*/
+    padding-top: 300px; /*This is spacer before the Main title logo*/
+    padding-bottom: 300px; /*This is spacer after the Main title logo*/
     color: #fff;
 }
 
 .head-main {
     text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
-    font-variant: small-caps;
     color: #fff;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
-    font-size: 4.5em;
-    text-align: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 2;
+    letter-spacing: 2pt;
+    word-spacing: 12pt;
+    font-size: 7em;
+    text-align: center;
+    font-family: Helvetica, 'Arial Narrow Bold', sans-serif;
+    line-height: 1;
     font-weight: 900;
-    border: 5px double #fff;
     padding: 10px;
 }
 
@@ -210,7 +206,7 @@ HOME SECTION STYLES
     padding: 100px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,0.3);
+    background-color: rgba(78, 117, 125, 0.3);
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -223,7 +219,7 @@ HOME SECTION STYLES
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100,65,0,0.3);
+    background-color: rgba(78, 117, 125, 0.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.5), 1px 2px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -362,7 +358,7 @@ FOOTER STYLES
 =============================================*/
 
 #footer {
-    background-color: rgba(100,65,0,0.3);
+    background-color: rgba(78, 117, 125, 0.3);
     color: #000;
     text-shadow: 2px 2px 0px 0 (0,0,0,0.4);
     padding: 20px 50px 20px 50px;
